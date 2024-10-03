@@ -6,7 +6,7 @@ for number in numbers:
         counts[number] += 1
     else:
         counts[number] = 1
-               
+
 for number, count in counts.items():
     if count > 1:
         print(number)

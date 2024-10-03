@@ -1,9 +1,7 @@
-students = {'John', 'Maria', 'David', 'Samantha'}
+students = ['John', 'Maria', 'David', 'Samantha']
 index = int(input("Enter the index: "))
 
-students_list = list(students)
-
-if 0 <= index < len(students_list):
-    print(students_list[index])
+if 0 <= index < len(students):
+    print(students[index])
 else:
     print("Index out of range")
